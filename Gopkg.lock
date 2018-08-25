@@ -404,6 +404,20 @@
   version = "v1.14.0"
 
 [[projects]]
+  branch = "v2"
+  digest = "1:988de7520a09024d5d94cd99bd545afbf194893994ec759b1cda0a0bbb6adb80"
+  name = "gopkg.in/mgo.v2"
+  packages = [
+    ".",
+    "bson",
+    "internal/json",
+    "internal/sasl",
+    "internal/scram",
+  ]
+  pruneopts = "UT"
+  revision = "9856a29383ce1c59f308dd1cf0363a79b5bef6b5"
+
+[[projects]]
   branch = "master"
   digest = "1:0b20dcbf3b256a57cf82d7b2b9db38f9c65789374b40903eb930dcddd3f461c1"
   name = "sourcegraph.com/sourcegraph/appdash"
@@ -434,6 +448,7 @@
     "github.com/openzipkin/zipkin-go-opentracing",
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
+    "gopkg.in/mgo.v2",
     "sourcegraph.com/sourcegraph/appdash",
     "sourcegraph.com/sourcegraph/appdash/opentracing",
   ]
