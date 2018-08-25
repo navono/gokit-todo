@@ -6,7 +6,7 @@ services:
       dockerfile: todo/Dockerfile
     restart: always
     volumes:
-    - .:/go/src/github.com/kujtimiihoxha/todo-gokit-demo/examples
+    - .:/go/src/github.com/navono/gokit-todo/
     container_name: todo
     ports:
     - 8800:8081
